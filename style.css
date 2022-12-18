@@ -81,7 +81,7 @@ textarea::placeholder {
 
 #aceito1,
 #aceitoSIM,
-#aceitoNÃO {
+#aceitoNAO {
   width: auto;
   height: auto;
   margin-top: 15px;
@@ -89,7 +89,7 @@ textarea::placeholder {
 
 .aceito1,
 .aceitoSIM,
-.aceitoNÃO {
+.aceitoNAO {
   display: inline;
 }
 

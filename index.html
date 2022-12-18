@@ -31,16 +31,16 @@
               <label for="#">E-mail:</label>
               <input
                 type="email"
-                name=""
-                id=""
+                name="email"
+                id="email"
                 placeholder="Escreva seu e-mail"
                 required
               />
 
-              <label for="#">Mensagem:</label>
+              <label for="msg">Mensagem:</label>
               <textarea
-                name=""
-                id=""
+                name="msg"
+                id="msg"
                 cols="30"
                 rows="10"
                 placeholder="Escreva uma mensagem"
@@ -48,13 +48,14 @@
               ></textarea>
 
               <input type="checkbox" name="aceito1" id="aceito1" />
-              <label for="#" class="aceito1">Aceito receber por e-mail</label>
-
+              <label for="aceito" class="aceito1"
+                >Aceito receber por e-mail</label
+              >
               <p class="termos"><strong>Aceita os termos?</strong></p>
-              <input type="radio" name="escolha" id="aceitoSIM" />
-              <label for="#" class="aceitoSIM">Sim</label>
-              <input type="radio" name="escolha" id="aceitoNÃO" required />
-              <label for="#" class="aceitoNÃO">Não</label>
+              <input type="radio" name="escolhaSIM" id="aceitoSIM" />
+              <label for="aceitoSIM" class="aceitoSIM">Sim</label>
+              <input type="radio" name="escolhaNAO" id="aceitoNAO" required />
+              <label for="aceitoNAO" class="aceitoNAO">Não</label>
 
               <input type="submit" id="enviar" name="enviar" value="Enviar" />
             </form>
