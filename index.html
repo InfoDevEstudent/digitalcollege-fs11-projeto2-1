@@ -18,11 +18,11 @@
             <form action="#" method="get">
               <label for="assunto">Assunto:</label>
               <select name="assunto" id="assunto" required>
-                <option value="">Suporte</option>
-                <option value="" selected required>
+                <option value="suporte">Suporte</option>
+                <option value="sugestao" selected required>
                   <strong>Sugestão</strong>
                 </option>
-                <option value="">Reclamação</option>
+                <option value="reclamacao">Reclamação</option>
               </select>
 
               <label for="#">Nome Completo:</label>
@@ -52,9 +52,9 @@
                 >Aceito receber por e-mail</label
               >
               <p class="termos"><strong>Aceita os termos?</strong></p>
-              <input type="radio" name="escolhaSIM" id="aceitoSIM" />
+              <input type="radio" name="escolha" id="aceitoSIM" />
               <label for="aceitoSIM" class="aceitoSIM">Sim</label>
-              <input type="radio" name="escolhaNAO" id="aceitoNAO" required />
+              <input type="radio" name="escolha" id="aceitoNAO" required />
               <label for="aceitoNAO" class="aceitoNAO">Não</label>
 
               <input type="submit" id="enviar" name="enviar" value="Enviar" />
