@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 600;
+  margin: 5px;
+}
+
+.container {
+  font-family: "Nova Mono";
+  width: 510px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(83, 83, 86, 0.501),
+    rgba(130, 118, 164, 0.501),
+    rgba(126, 182, 154, 0.501)
+  );
+  background-size: 500% 1234500%;
+  color: aliceblue;
+
+  animation-name: background;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+legend {
+  color: rgb(43, 43, 34);
+}
+
+@keyframes background {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+label {
+  display: block;
+  font-family: "Nova Mono", monospace;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 500px;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+form input,
+form textarea {
+  padding: 5px;
+}
+
+textarea {
+  width: 500px;
+  resize: none;
+  border-radius: 5px;
+}
+
+textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#aceito1,
+#aceitoSIM,
+#aceitoNÃO {
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+}
+
+.aceito1,
+.aceitoSIM,
+.aceitoNÃO {
+  display: inline;
+}
+
+.termos {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+  width: 500px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+  background-color: rgb(130, 135, 139);
+  color: aliceblue;
+}
